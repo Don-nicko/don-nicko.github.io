@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
+    <!-- Prototype Css -->  
+    <link rel="stylesheet" href="cssprototype.css" crossorigin="anonymous">  
+      
+    <!-- Font awesome -->   
+    <script src="https://kit.fontawesome.com/9fe23fc8f1.js" crossorigin="anonymous"></script> 
+        
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">  
+      
+    <title>Vragenronde 3</title>
+  </head>
+  <body>
+      
+    <div class="header">
+        <div class="container">
+            
+        </div>    
+    </div>
+<!--
+    <div class="achievement">
+        <table>
+            <tr>
+                <td>
+                    <i class="fas fa-check-circle"></i>
+                </td>
+                <td>
+                    <small>+5 punten</small><br>
+                    Begin aan de derde ronde!
+                </td>
+            </tr>
+        </table>
+    </div>  
+-->
+
+    <div class="container menu-container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-10">
+                <div class="menu-block">
+                    <a href="javascript:javascript:history.go(-1)" class="btn btn-sm btn-primary btn-back"><i class="fas fa-undo"></i></a>
+                    <a data-toggle="modal" data-target="#quitModal" class="btn btn-sm btn-danger btn-quit"><i class="fas fa-times-circle"></i></a>
+                    
+<!--                    <button type="button" class="btn btn-sm btn-primary btn-quote btn-micro" data-container="body" data-toggle="popover" data-placement="left" data-title="Henk - Ondernemer" data-offset="100" data-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas lacus ac congue tincidunt. Integer elementum arcu eu malesuada tincidunt. Nulla hendrerit euismod purus, ut finibus purus. In porta quam eu felis gravida, nec placerat odio rutrum. Donec sollicitudin turpis sed ultricies laoreet. Fusce pulvinar mollis fermentum."><i class="fas fa-user-tie"></i></button>-->
+<!--                    <button class="btn btn-sm btn-primary btn-help btn-micro" data-toggle="modal" data-target="#helpModal"><i class="fas fa-book"></i></button>-->
+
+                    <div class="row">
+                        <div class="col">
+                            <h3>Heb je nog vragen voor mij?</h3>
+                            <div class="iframe-container">
+                                <iframe id="ytplayer" type="text/html" width="100%" height="466px"
+                                  src="https://www.youtube.com/embed/KOJn0FWLS4k?autoplay=1&controls=0&disablekb=1&rel=0&modestbranding=1"
+                                  frameborder="0" allow="autoplay"></iframe>
+                            </div>    
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col">
+                            <div class="well">
+                                <ul>
+                                    <li><a href="prototypelvl3-1.html">Waarom zouden we jou moeten aannemen?</a></li>
+                                    <li><a href="prototypelvl3-2.html">Waar zie je jezelf in 5 jaar?</a></li>
+                                    <li><a href="prototypelvl3-3.html">Heb je nog vragen voor mij?</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="row subfooter">
+                        <div class="col text-right">
+                            <a href="prototypelvl2-0.html"><i class="fas fa-chevron-circle-left"></i></a> Vragenronde 3/3 <a class="btn-done" data-toggle="modal" data-target="#endModal"><i class="fas fa-check-circle text-success"></i></a>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+      
+    <div class="modal fade" id="endModal" tabindex="-1" role="dialog" aria-labelledby="endModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="helpModalLabel">Gesprek afronden?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <button type="button" class="btn btn-lg btn-danger text-center float-right" data-dismiss="modal" style="width:47%;">Nee</button>
+            <a type="button" class="btn btn-lg btn-success text-center float-left" href="prototypelvlend.html" style="width:47%;">Ja</a>
+          </div>
+        </div>
+      </div>
+    </div>  
+      
+    <div class="modal fade" id="quitModal" tabindex="-1" role="dialog" aria-labelledby="quitModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="helpModalLabel">Sluiten en naar menu?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <button type="button" class="btn btn-lg btn-danger text-center float-right" data-dismiss="modal" style="width:47%;">Nee</button>
+            <a type="button" class="btn btn-lg btn-success text-center float-left" href="protoypehome.html" style="width:47%;">Ja</a>
+          </div>
+        </div>
+      </div>
+    </div>    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+          $('[data-toggle="popover"]').popover()
+        })
+    </script> 
+  </body>
+</html>
